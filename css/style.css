@@ -10,14 +10,32 @@ body {
 body h1 {
   color: black;
   text-align: center;
+  font-weight: bold;
 }
 body h2 {
   color: black;
   text-align: lef;
+  font-weight: bold;
 }
-
-.contenedor {
-  text-align: center;
+body h3 {
+  color: black;
+  text-align: lef;
+  font-weight: bold;
+}
+body h4 {
+  color: black;
+  text-align: lef;
+  font-weight: bold;
+}
+body h5 {
+  color: black;
+  text-align: lef;
+  font-weight: bold;
+}
+body p {
+  color: #343a40;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 /*style para los videos*/
@@ -43,6 +61,10 @@ body h2 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.contenedor { /*para centrar la galeria de imagenes*/
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

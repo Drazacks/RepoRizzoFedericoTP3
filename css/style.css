@@ -67,6 +67,13 @@ body p {
   text-align: center;
 }
 
+.navbar-title {
+  flex-grow: 1;
+  text-align: center;
+  color: #e2a75b;
+  font-size: 1.5rem;
+}
+
 .subMenu {
   display: flex;
   justify-content: center;

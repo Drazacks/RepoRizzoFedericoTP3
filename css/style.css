@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+  background-image: url(../assets/imagenes/Fondo.jpg);
+  background-position: 10%, 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+body h1 {
+  color: black;
+  text-align: center;
+}
+body h2 {
+  color: black;
+  text-align: lef;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+/*style para los videos*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* Proporción del video (16:9) */
+  padding-top: 30px;
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+.subMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    a {
+        color:#000000;
+        &:hover {
+            color: rgb(114, 108, 108);
+        }
+    }
+    }

@@ -1,108 +1,17 @@
-@charset "UTF-8";
-body {
-  background-image: url(../assets/imagenes/Fondo.jpg);
-  background-position: 10%, 10%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #ffffff;
-}
-body h1 {
-  color: black;
-  text-align: center;
-  font-weight: bold;
-}
-body h2 {
-  color: black;
-  text-align: lef;
-  font-weight: bold;
-}
-body h3 {
-  color: black;
-  text-align: lef;
-  font-weight: bold;
-}
-body h4 {
-  color: black;
-  text-align: lef;
-  font-weight: bold;
-}
-body h5 {
-  color: black;
-  text-align: lef;
-  font-weight: bold;
-}
-body p {
-  color: #343a40;
-  font-size: 1rem;
-  font-weight: bold;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "variables/variables";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\main.scss 1:9  root stylesheet */
 
-/*style para los videos*/
-.row {
-  display: flex;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"variables/variables\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\main.scss 1:9  root stylesheet";
 }
-
-.column {
-  flex: 1;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* Proporción del video (16:9) */
-  padding-top: 30px;
-  height: 0;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.contenedor { /*para centrar la galeria de imagenes*/
-  text-align: center;
-}
-
-.navbar-title {
-  flex-grow: 1;
-  text-align: center;
-  color: #e2a75b;
-  font-size: 1.5rem;
-}
-
-.subMenu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-}
-.subMenu a {
-  color: #000000;
-}
-.subMenu a:hover {
-  color: rgb(114, 108, 108);
-}
-
-/* style para el footer*/
-a {
-  text-decoration: none;
-  font-size: 16px;
-}
-
-p {
-  font-size: 16px;
-}
-
-a:hover {
-  color: #0d6efd !important;
-}
-
-i {
-  font-size: 25px;
-}
-
-/*# sourceMappingURL=style.css.map */

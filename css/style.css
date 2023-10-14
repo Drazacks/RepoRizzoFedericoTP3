@@ -37,6 +37,18 @@ body p {
   font-size: 1rem;
   font-weight: bold;
 }
+body .subMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+body .subMenu a {
+  color: #000000;
+}
+body .subMenu a:hover {
+  color: rgb(114, 108, 108);
+}
 
 /*style para los videos*/
 .row {

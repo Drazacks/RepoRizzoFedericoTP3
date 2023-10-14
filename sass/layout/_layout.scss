@@ -9,43 +9,43 @@ body {
     color: #ffffff;
 
         h1 {
-            color: $neg;
+            color: $color1;
             text-align: center;
             font-weight: bold;
         }
 
         h2 {
-            color: $neg;
+            color: $color1;
             text-align: lef;
             font-weight: bold;
         }
 
         h3 {
-            color: $neg;
+            color: $color1;
             text-align: lef;
             font-weight: bold;
         }
 
         h4 {
-            color: $neg;
+            color: $color1;
             text-align: lef;
             font-weight: bold;
         }
 
         h5 {
-            color: $neg;
+            color: $color1;
             text-align: lef;
             font-weight: bold;
         }
 
         p {
-            color: #343a40;
+            color: $color4;
             font-size: 1rem;
             font-weight: bold;
             }
 
         .card {
-        background-color: lightgrey;
+        background-color: $color2;
         }
 
         .noticias {

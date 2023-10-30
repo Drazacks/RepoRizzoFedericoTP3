@@ -40,6 +40,7 @@ body p {
 }
 body .card {
   background-color: lightgrey;
+  padding: 1.5%;
 }
 body .noticias {
   margin-left: 180px;
@@ -74,8 +75,6 @@ body .noticias {
 .contenedor { /*para centrar la galeria de imagenes*/
   text-align: center;
 }
-
-
 
 /* -----------------Navbar----------------- */
 .navbar-title {

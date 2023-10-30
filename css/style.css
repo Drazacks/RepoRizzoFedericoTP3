@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* -----------------Css general----------------- */
 body {
   background-image: url(../assets/imagenes/Fondo.jpg);
   background-position: 10%, 10%;
@@ -44,7 +45,7 @@ body .noticias {
   margin-left: 180px;
 }
 
-/*style para los videos*/
+/* -----------------Videos----------------- */
 .row {
   display: flex;
 }
@@ -69,10 +70,14 @@ body .noticias {
   height: 100%;
 }
 
+/* -----------------galería----------------- */
 .contenedor { /*para centrar la galeria de imagenes*/
   text-align: center;
 }
 
+
+
+/* -----------------Navbar----------------- */
 .navbar-title {
   flex-grow: 1;
   text-align: center;
@@ -94,7 +99,7 @@ body .noticias {
   color: rgb(114, 108, 108);
 }
 
-/* style para el footer*/
+/* -----------------footer----------------- */
 a {
   text-decoration: none;
   font-size: 16px;
@@ -112,7 +117,7 @@ i {
   font-size: 25px;
 }
 
-/* -----------------CONTACTOS----------------- */
+/* -----------------formularios----------------- */
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

@@ -98,6 +98,7 @@ body .card2 {
 
 .subMenu {
   display: flex;
+  justify-content: space-between;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;

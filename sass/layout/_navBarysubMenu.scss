@@ -5,22 +5,26 @@
     text-align: center;
     color: #e2a75b;
     font-size: 1.5rem;
-    
+
 
 }
 
 
 .subMenu {
     display: flex;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
 
+
     a {
-        color:#000000;
+        color: #000000;
         &:hover {
             color: rgb(114, 108, 108);
         }
     }
-    }
+
+
+}

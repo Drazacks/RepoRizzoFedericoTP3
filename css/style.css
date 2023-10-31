@@ -185,6 +185,7 @@ i {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 3rem;
   width: 100%;
+  padding: 2%;
 }
 
 .campo textarea {
@@ -193,6 +194,7 @@ i {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 8rem;
   width: 100%;
+  padding: 2%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -214,6 +216,18 @@ i {
 }
 .botonFormulario input {
   padding: auto 2rem;
+}
+
+/* -----------------Productos----------------- */
+.card:hover {
+  background-color: #0466f9;
+  color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(7, 3, 37, 0.634);
+  filter: brightness(1.2);
+}
+.card:hover .card-text {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -35,15 +35,23 @@ body h5 {
 }
 body p {
   color: #343a40;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
-body .card {
+body .textoHome {
   background-color: lightgrey;
-  padding: 1.5%;
+  padding: 2%;
 }
-body .noticias {
-  margin-left: 180px;
+body .Tributos {
+  margin-left: 7%;
+}
+body .card2 {
+  border: 2.5px solid;
+  border-color: #343a40;
+  background-color: lightgrey;
+  margin-bottom: 20px;
+  height: 150px;
+  padding: 5%;
 }
 
 /* -----------------Videos----------------- */
@@ -74,6 +82,10 @@ body .noticias {
 /* -----------------galería----------------- */
 .contenedor { /*para centrar la galeria de imagenes*/
   text-align: center;
+}
+.contenedor .carrusel-item {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* -----------------Navbar----------------- */
@@ -219,6 +231,11 @@ i {
 }
 
 /* -----------------Productos----------------- */
+.card {
+  background-color: lightgrey;
+  padding: 2%;
+}
+
 .card:hover {
   background-color: #0466f9;
   color: #ffffff;

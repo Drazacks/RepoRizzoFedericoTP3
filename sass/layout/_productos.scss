@@ -1,5 +1,10 @@
 /* -----------------Productos----------------- */
 
+.card {
+    background-color: $color2;
+    padding: 2%;
+
+}
 
 .card:hover {
     background-color: #0466f9;
@@ -7,6 +12,7 @@
     transform: scale(1.05);
     box-shadow: 0 0 30px rgba(7, 3, 37, 0.634);
     filter: brightness(1.2);
+    
 
         .card-text {
             color: #ffffff;

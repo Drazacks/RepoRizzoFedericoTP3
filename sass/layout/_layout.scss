@@ -9,50 +9,59 @@ body {
     background-size: cover;
     color: $color5;
 
-        h1 {
-            color: $color1;
-            text-align: center;
-            font-weight: bold;
-        }
+    h1 {
+        color: $color1;
+        text-align: center;
+        font-weight: bold;
+    }
 
-        h2 {
-            color: $color1;
-            text-align: lef;
-            font-weight: bold;
-        }
+    h2 {
+        color: $color1;
+        text-align: lef;
+        font-weight: bold;
+    }
 
-        h3 {
-            color: $color1;
-            text-align: lef;
-            font-weight: bold;
-        }
+    h3 {
+        color: $color1;
+        text-align: lef;
+        font-weight: bold;
+    }
 
-        h4 {
-            color: $color1;
-            text-align: lef;
-            font-weight: bold;
-        }
+    h4 {
+        color: $color1;
+        text-align: lef;
+        font-weight: bold;
+    }
 
-        h5 {
-            color: $color1;
-            text-align: lef;
-            font-weight: bold;
-        }
+    h5 {
+        color: $color1;
+        text-align: lef;
+        font-weight: bold;
+    }
 
-        p {
-            color: $color4;
-            font-size: 1rem;
-            font-weight: bold;
-            }
+    p {
+        color: $color4;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
 
-        .card {
+    .textoHome {
         background-color: $color2;
-        padding: 1.5%;
-        }
+        padding: 2%;
 
-        .noticias {
-            margin-left: 180px;
-        }
+    }
 
+    .Tributos {
+        margin-left: 7%;
+    }
+
+    .card2 {
+        border: 2.5px solid;
+        border-color: $color4;
+        background-color: $color2;
+        margin-bottom: 20px;
+        height: 150px;
+        padding: 5%;
+    }
 
 }
